@@ -82,7 +82,7 @@ def merge_sort(array):
 
     right = merge_sort(array[len(array)/2 : len(array)])
 
-    esult = [] * len(array)
+    result = [] * len(array)
     print(result)
   
     l, r, k = 0, 0, 0
